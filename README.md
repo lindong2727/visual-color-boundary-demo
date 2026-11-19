@@ -1,6 +1,6 @@
 # Visual color-difference boundary demo
 
-The full color-difference research project is private. This public demo covers one part of the workflow and uses only synthetic data. It estimates the gray-scale grade 4 / 3–4 boundary for one simulated observer along the lightness-increase (+L*) direction. The base color, responses and IDs are synthetic. The repository contains no lab measurements, participant data or customer data.
+The full project is a private, end-to-end color ecosystem spanning spectral measurement, color data management, visual assessment, and practical color applications. The public dataset is entirely synthetic and illustrates a very small part of that ecosystem. The demo estimates the gray-scale grade 4 / 3–4 boundary for one simulated observer along the lightness-increase (+L*) direction. The base color, responses and IDs are synthetic. The repository contains no lab measurements, participant data or customer data.
 
 ## Run
 
@@ -20,7 +20,6 @@ The script regenerates `synthetic_trials.csv` and prints the estimated boundary 
 - Resample responses within each step and A/B assignment to quantify uncertainty for this simulated observer.
 
 The planted boundary is ΔL* = 2.600. This demonstration covers the single-observer threshold estimator. The full project's spectral processing, CIEDE2000 baseline and lab validation are future work.
-
 
 ## Example result
 
